@@ -9,20 +9,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
 </head>
 <body>
+
+     <!-- Download Buttons -->
+     <div class="download-btns">
+        <a href="https://code.jquery.com/jquery-3.6.0.min.js" target="_blank">Download jQuery</a>
+        <a href="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js" target="_blank">Download Cycle</a>
+    </div>
+
     <h1>Ultimate Image Sliders with Code</h1>
+
+    <!-- Space added below buttons and above sliders -->
     <div class="slider-wrapper">
+        <!-- Your Sliders Here -->
+
         <!-- Slider 1 -->
-        <div class="slider-container">
+          <div class="slider-container">
             <div id="slider1" class="slider">
-                <img src="images/imeg11.jpg">
-                <img src="images/imeg33.jpg">
-                <img src="images/imeg333.jpg">
-                <img src="images/imeg222.jpg">
+                <img src="imeg11.jpg">
+                <img src="imeg33.jpg">
+                <img src="imeg333.jpg">
+                <img src="imeg222.jpg">
             </div>
             <div class="code-container">
                 <pre id="code1">
-$("#slider1").cycle({ fx: "shuffle" });
+ $("#slider1").cycle({ fx: "shuffle" });
                 </pre>
+       
                 <button class="copy-btn" onclick="copyCode('code1')">Copy Code</button>
             </div>
         </div>
@@ -30,10 +42,10 @@ $("#slider1").cycle({ fx: "shuffle" });
         <!-- Slider 2 -->
         <div class="slider-container">
             <div id="slider2" class="slider">
-                <img src="images/imeg11.jpg">
-                <img src="images/imeg33.jpg">
-                <img src="images/imeg333.jpg">
-                <img src="images/imeg222.jpg">
+                <img src="imeg11.jpg">
+                <img src="imeg33.jpg">
+                <img src="imeg333.jpg">
+                <img src="imeg222.jpg">
             </div>
             <div class="code-container">
                 <pre id="code2">
@@ -46,10 +58,10 @@ $("#slider2").cycle({ fx: "zoom", delay: -2000 });
         <!-- Slider 3 -->
         <div class="slider-container">
             <div id="slider3" class="slider">
-                <img src="images/imeg11.jpg">
-                <img src="images/imeg33.jpg">
-                <img src="images/imeg333.jpg">
-                <img src="images/imeg222.jpg">
+                <img src="imeg11.jpg">
+                <img src="imeg33.jpg">
+                <img src="imeg333.jpg">
+                <img src="imeg222.jpg">
             </div>
             <div class="code-container">
                 <pre id="code3">
@@ -62,10 +74,10 @@ $("#slider3").cycle({ fx: "turnDown", delay: -4000 });
         <!-- Slider 4 -->
         <div class="slider-container">
             <div id="slider4" class="slider">
-                <img src="images/imeg11.jpg">
-                <img src="images/imeg33.jpg">
-                <img src="images/imeg333.jpg">
-                <img src="images/imeg222.jpg">
+                <img src="imeg11.jpg">
+                <img src="imeg33.jpg">
+                <img src="imeg333.jpg">
+                <img src="imeg222.jpg">
             </div>
             <div class="code-container">
                 <pre id="code4">
@@ -73,10 +85,9 @@ $("#slider4").cycle({ fx: "curtainX", delay: -2000 });
                 </pre>
                 <button class="copy-btn" onclick="copyCode('code4')">Copy Code</button>
             </div>
-        </div>
+        </div> </div>
 
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
